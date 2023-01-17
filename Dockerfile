@@ -1,6 +1,6 @@
 FROM Abishnoi/ExonRobot-python:latest
 
-RUN  git clone https://github.com/Abishnoi69/ExonRobot -b main  /root/ExonRobot
+RUN  git clone https://github.com/luteg96/Hu-Tao -b master  /root/ExonRobot
 RUN  mkdir  /root/ExonRobot/bin/
 WORKDIR /root/ExonRobot/
 
